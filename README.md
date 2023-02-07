@@ -1,9 +1,10 @@
 ﻿# GameArchives
 C# Library for reading video game archives, and example file browser ("ArchiveExplorer").
 
+This fork is designed to improve upon maxton's work, aiming to bring it up to modern .NET, and possibly adding additional package support.
+
 ## Downloading
-You can get the most up-to-date release from [Appveyor](https://ci.appveyor.com/project/maxton/gamearchives/build/artifacts)
-(download the Release-x.x.x.x.zip file).
+TODO
 
 ## Supported Archive Formats
 ### Ark (*.hdr, *.ark)

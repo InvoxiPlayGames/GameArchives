@@ -26,7 +26,7 @@ using System.Text;
 
 namespace GameArchives.U8
 {
-  class U8Package : AbstractPackage
+  public class U8Package : AbstractPackage
   {
     const uint MAGIC = 0x55AA382D;
     const byte DIR = 1;
@@ -60,7 +60,7 @@ namespace GameArchives.U8
     private U8Directory root;
 
     /// <summary>
-    /// Open the .far archive which is the given file.
+    /// Open the .app archive which is the given file.
     /// </summary>
     /// <param name="path"></param>
     private U8Package(IFile f)
